@@ -1,4 +1,4 @@
-title: Practical Bitcoin Consultant
+title: Bitcoin Sofia
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,14 +9,16 @@ url: "https://bitcoinsofia.com/"
 site-twitter: https://twitter.com/BitcoinSofia/
 
 # Author Settings
-author: Bitcoin Sofia
+title2: Practical Bitcoin Consulting
+
+author: Aleksandar Dinkov
 
 logo-img: logo.jpg
 
-about-author: "My name is Aleksandar Dinkov. I am a Software Engineer and I specialize in Bitcoin. <br/><br/> I can help you achieve better results by using Bitcoin as money and as a data ladger. <br/> <br/> I can also help you avoid investing resources in some of the less usefull blockchain ideas."
+about-author: "My name is Aleksandar Dinkov.
+I am a Software Engineer and I specialize in Bitcoin."
 
 author-img: me.jpg
-
 
 social-twitter: BitcoinSofia
 social-github: Siko91 
@@ -29,10 +31,10 @@ projects:
     fa_icon: cogs
   - title: "BitSent LINK"
     href: https://bitsent.net/link.html
-    fa_icon: external-link-square
+    fa_icon: user-secret
   - title: "BitBtn"
     href: https://bitsent.net/link.html
-    fa_icon: mouse-pointer
+    fa_icon: toggle-off
 
 # Disqus
 # discus-identifier: mr-brown # add your discus identifier
@@ -42,12 +44,16 @@ analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
-plugins:
+
+plugins dir:
   - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
-paginate: 8
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 3
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
