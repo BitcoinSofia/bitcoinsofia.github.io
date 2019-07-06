@@ -941,7 +941,17 @@ table tfoot td {
   text-align: center;
 }
 
-.about .cover-author-image {
+.logos .cover-author-image:nth-child(1) {
+  position: relative;
+  left: 95px;
+}
+.logos .cover-author-image:nth-child(2) {
+  position: relative;
+  right: 95px;
+}
+
+.logos .cover-author-image {
+  display: inline-block;
   width: 100px;
   height: 100px;
   margin: 0 auto 10px;
@@ -951,7 +961,7 @@ table tfoot td {
   background-color: #333030;
 }
 
-.about img {
+.sidebar img {
   width: 100%;
   height: 100%;
   -webkit-border-radius: 50%;
@@ -963,7 +973,7 @@ table tfoot td {
   transition: transform 0.35s, -webkit-transform 0.35s;
 }
 
-.about img:hover {
+.sidebar img:hover {
   -webkit-transform: scale3d(0.9, 0.9, 1);
           transform: scale3d(0.9, 0.9, 1);
 }

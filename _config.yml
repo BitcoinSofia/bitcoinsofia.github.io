@@ -1,25 +1,41 @@
-title: Hello, world! I'm David Freeman
+title: Practical Bitcoin Consultant
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+baseurl: ""
+url: "https://bitcoinsofia.com/"
+site-twitter: https://twitter.com/BitcoinSofia/
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+author: Bitcoin Sofia
+
+logo-img: logo.jpg
+
+about-author: "My name is Aleksandar Dinkov. I am a Software Engineer and I specialize in Bitcoin. <br/><br/> I can help you achieve better results by using Bitcoin as money and as a data ladger. <br/> <br/> I can also help you avoid investing resources in some of the less usefull blockchain ideas."
+
+author-img: me.jpg
+
+
+social-twitter: BitcoinSofia
+social-github: Siko91 
+social-linkedin: alexander-dinkov-26951ba8
+social-email: aleks@bitcoinsofia.com
+
+projects:
+  - title: "Pipe Cash"
+    href: https://pipecash.org/
+    fa_icon: cogs
+  - title: "BitSent LINK"
+    href: https://bitsent.net/link.html
+    fa_icon: external-link-square
+  - title: "BitBtn"
+    href: https://bitsent.net/link.html
+    fa_icon: mouse-pointer
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+# discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
