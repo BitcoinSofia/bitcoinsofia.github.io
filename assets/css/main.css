@@ -912,6 +912,12 @@ table tfoot td {
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+
+#about-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+
 .sidebar {
   display: -webkit-box;
   display: -webkit-flex;
