@@ -1072,6 +1072,7 @@ table tfoot td {
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
+  margin-top: 20px;
   text-transform: uppercase;
   text-align: center;
 }
