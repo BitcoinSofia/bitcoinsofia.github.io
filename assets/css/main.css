@@ -1140,6 +1140,25 @@ table tfoot td {
           transform: scale(1.2);
 }
 
+#site-menu {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+  text-align: right;
+}
+
+#site-menu .menu-item {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#site-menu .menu-item:hover {
+  background-color: #00000005;
+}
+
 footer .copyright {
   font-size: 14px;
   text-align: center;

@@ -25,6 +25,15 @@ social-github: Siko91
 social-linkedin: alexander-dinkov-26951ba8
 social-email: aleks@bitcoinsofia.com
 
+
+menu:
+  - title: Home
+    fa_icon: home
+    href: /
+  - title: Blog
+    fa_icon: pencil-square-o
+    href: /blog/
+
 projects:
   - title: "Pipe Cash"
     href: https://pipecash.org/
@@ -49,11 +58,11 @@ plugins dir:
   - jekyll-sitemap
   - jekyll-paginate
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
 paginate: 3
-paginate_path: "/page/:num"
+paginate_path: /blog/page:num/
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

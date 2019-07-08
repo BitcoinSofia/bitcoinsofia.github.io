@@ -1,0 +1,10 @@
+<nav id="site-menu">
+
+    {% for menuItem in site.menu %}
+    <a class="menu-item" href="{{menuItem.href}}">
+        <i class="fa fa-{{menuItem.fa_icon}}"> </i>
+        {{menuItem.title}}
+    </a>
+    {% endfor %}
+
+</nav>
