@@ -1140,6 +1140,45 @@ table tfoot td {
           transform: scale(1.2);
 }
 
+.call-to-action {
+  display: inline-block;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: #0000a7;
+  border: 4px solid transparent;
+  border-radius: 25px;
+  color: white;
+  margin: 30px 0;
+}
+
+.call-to-action:hover {
+  border: 4px ridge #b7b7ff;
+  background: #1919ff;
+}
+
+#contact-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:100%;
+  text-align: center;
+}
+
+#contact-page .contact-item {
+  padding: 10px;
+}
+
+#contact-page .contact-item:hover {
+  background-color: #00000005;
+}
+
+#contact-page .contact-item .fa {
+  font-size: 40px;
+}
+
+
 #site-menu {
   display: block;
   width: 100%;

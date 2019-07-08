@@ -33,6 +33,9 @@ menu:
   - title: Blog
     fa_icon: pencil-square-o
     href: /blog/
+  - title: Contact
+    fa_icon: user
+    href: /contact/
 
 projects:
   - title: "Pipe Cash"
