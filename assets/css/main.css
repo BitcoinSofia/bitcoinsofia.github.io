@@ -1553,6 +1553,9 @@ a.newer-posts:hover {
   .contact-title, .copyright {
     display: none;
   }
+  #contact-page {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -1581,5 +1584,8 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  #contact-page {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
