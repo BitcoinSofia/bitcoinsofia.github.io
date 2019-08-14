@@ -1,8 +1,9 @@
 title: Bitcoin Sofia
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  Practical Bitcoin Consulting.
+  Helping your business get an edge.
+  Focused on practicality, not on trends.
+
 permalink: ':title/'
 baseurl: ""
 url: "https://bitcoinsofia.com/"
@@ -15,8 +16,12 @@ author: Aleksandar Dinkov
 
 logo-img: logo.jpg
 
-about-author: "My name is Aleksandar Dinkov.
-I am a Software Engineer and I specialize in Bitcoin."
+about-author: "Aleksandar Dinkov.
+  Creator of BitBtn, the OutputURI protocol and PipeCash.
+  Practical Bitcoin Consulting.
+  Helping your business get an edge.
+  Focused on practicality, not on trends.
+  Do more with less."
 
 author-img: me.jpg
 
