@@ -1,10 +1,10 @@
 ---
 layout: post
-title: [PowerBI Report] 7-day Price
+title: PowerBI Report - 7-day Price
 date: 2020-04-04 16:27:03 +0300
 description: Powered by CoinGecko API
 img: posts/power-bi.png
-tags: [bitcoin, report]
+tags: [bitcoin, powerbi, report]
 ---
 
 # 1) 7-day Price
