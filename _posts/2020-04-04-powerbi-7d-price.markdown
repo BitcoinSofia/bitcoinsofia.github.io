@@ -10,8 +10,8 @@ tags: [bitcoin, powerbi, report]
 
 <div>
   <iframe 
-    width="933" 
-    height="700" 
+    width="1333" 
+    height="1000" 
     src="https://app.powerbi.com/view?r=eyJrIjoiYmM0NzYwMmMtNDYyZi00YTg4LWFlZDUtZWYzNWFlYjE0OTJmIiwidCI6IjhlNjQxMWI3LTZmYjktNDhmNS05NTQ4LTAwYjJlMTc3N2RkZiIsImMiOjl9" 
     frameborder="0" 
     allowFullScreen="true">
