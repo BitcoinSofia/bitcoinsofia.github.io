@@ -7,7 +7,7 @@ img: posts/power-bi.png
 tags: [bitcoin, powerbi, report]
 ---
 
-# 1) 7-day Price
+# 7-day Price
 
 <div>
   <iframe 
