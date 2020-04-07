@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowerBI Report - Coin Markets
+title: Report - Coin Markets
 date: 2020-04-04 20:08:00 +0300
 description: Powered by CoinGecko API
 tags: [bitcoin, powerbi, report]
