@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PowerBI Report - ICO Overview
+title: Report - ICO Overview
 date: 2020-04-04 23:05:00 +0300
 description: Powered by CoinGecko API
 tags: [bitcoin, powerbi, report]
