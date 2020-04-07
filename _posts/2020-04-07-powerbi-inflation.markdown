@@ -13,4 +13,5 @@ tags: [bitcoin, powerbi, report]
 </div>
 
 The data for this report was scraped from https://www.inflation.eu/
+
 Visit https://www.inflation.eu/ to verify the original sources.
